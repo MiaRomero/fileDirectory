@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>File Directory</title>
+  </head>
+
+  <body data-ng-app="filesApp">
+
+    <section id ="listOfFiles"
+             data-ng-controller="listController as listCntl"
+             data-ng-init="listCntl.getRoot()">
+      <ul>
+        <li data-ng-repeat="file in listCntl.files"></li>
+      </ul>
+    </section>
+    <script src="filesApp.js"</script>
+    <script src="filesRouter.js"</script>
+  </body>
+</html>

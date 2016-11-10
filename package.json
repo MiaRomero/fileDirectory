@@ -1,0 +1,22 @@
+{
+  "name": "fileDirectory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": "",
+  "scripts": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiaRomero/fileDirectory.git"
+  },
+  "author": "Maria Romero",
+  "license": "MIT",
+  "homepage": "https://github.com/MiaRomero/fileDirectory#readMe",
+  "devDependecies": {
+    "angular": "^1.5.5",
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}
